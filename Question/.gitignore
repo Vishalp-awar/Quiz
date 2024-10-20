@@ -19,6 +19,10 @@ target/
 *.iml
 *.ipr
 
+# Ignore application.properties
+application.properties
+# OR: src/main/resources/application.properties if specific location
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/

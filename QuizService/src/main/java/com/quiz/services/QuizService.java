@@ -1,11 +1,10 @@
+
 package com.quiz.services;
 
 import com.quiz.entities.Quiz;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
 public interface QuizService {
 
     Quiz add(Quiz quiz);
@@ -15,3 +14,4 @@ public interface QuizService {
     Quiz get(Long id);
 
 }
+
